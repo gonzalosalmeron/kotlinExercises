@@ -6,6 +6,6 @@ fun main(){
     println("AB OR 03 = ${a or b}") // resultado = 171  / hexadecimal = AB
     println("AB XOR 03 = ${a xor b}") // resultado = 168  / hexadecimal = A8
     println("desplazamiento de 2 bits de AB a la derecha = ${a shr 2}") // resultado = 42  / hexadecimal = A8
-    println("desplazamiento de 2 bits de AB a la izquierda = ${a shl 2}") // resultado = 648  / hexadecimal = 288
+    println("desplazamiento de 2 bits de AB a la izquierda = ${a shl 3}") // resultado = 1368  / hexadecimal = 558
 
 }
